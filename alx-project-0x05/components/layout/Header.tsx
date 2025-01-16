@@ -35,6 +35,7 @@ export const Header: React.FC = () => {
             buttonLabel="Sign Up"
             buttonBackgroundColor="blue"
           /></>
+          
             ) : (
               /* If the path name is /counter-app, show the current count */
               <p className=" font-semibold text-lg">Current count : {count}</p>
